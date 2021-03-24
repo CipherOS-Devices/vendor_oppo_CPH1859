@@ -27,10 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/oppo/CPH1859/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so
 
-# IMS
 PRODUCT_PACKAGES += \
-    ImsService
- 
-# EngineerMode
-PRODUCT_PACKAGES += \
-    EngineerMode
+     ImsService \
+     EngineerMode \
+     HotwordEnrollmentOKGoogleCORTEXM4
