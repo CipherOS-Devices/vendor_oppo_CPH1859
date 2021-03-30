@@ -31,7 +31,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib/libavcodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/oppo/CPH1859/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/oppo/CPH1859/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
-    vendor/oppo/CPH1859/proprietary/lib64/libavcodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libavcodec.so
+    vendor/oppo/CPH1859/proprietary/lib64/libavcodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libavcodec.so \
+    vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/oppo/CPH1859/proprietary/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
+    vendor/oppo/CPH1859/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
+    vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/oppo/CPH1859/proprietary/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so 
+
 
 PRODUCT_PACKAGES += \
      ImsService \
