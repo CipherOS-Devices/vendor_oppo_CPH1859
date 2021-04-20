@@ -17,6 +17,7 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/oppo/CPH1859
 
+# Blobs
 PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/oppo/CPH1859/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
@@ -38,7 +39,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/oppo/CPH1859/proprietary/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so 
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/oppo/CPH1859/proprietary/etc/permissions/privapp-permissions-mediatek-engineer.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek-engineer.xml
 
+# Prebuilts
 PRODUCT_PACKAGES += \
      ImsService \
      EngineerMode \
